@@ -45,6 +45,12 @@ Writes out the current time about every 15 seconds.
 
 Conway's game of life.
 
+## Snake
+
+A self-playing game of snake. The snake always moves toward the food and
+grows by one segment each time it eats; if it traps itself, a new game
+starts automatically.
+
 ## Subscriptions
 
 Prints out the current subscriptions tied to the Vestaboard to the command-line.
