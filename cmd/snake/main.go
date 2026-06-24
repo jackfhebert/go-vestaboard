@@ -168,6 +168,9 @@ func main() {
 			game = newSnakeGame(rng)
 		}
 
-		time.Sleep(1 * time.Second)
+		// Vestaboard rate-limits the platform API to about one message
+		// every 15 seconds; sending faster than that causes frames to be
+		// dropped.
+		time.Sleep(15 * time.Second)
 	}
 }
