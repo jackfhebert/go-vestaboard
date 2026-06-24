@@ -51,6 +51,13 @@ A self-playing game of snake. The snake always moves toward the food and
 grows by one segment each time it eats; if it traps itself, a new game
 starts automatically.
 
+## Langton's Ant
+
+A single "ant" flips exactly one tile every tick: turn right and light the
+cell if it's off, turn left and clear it if it's on, then step forward
+(wrapping at the board's edges). A classic example of complex behavior
+emerging from a very simple rule.
+
 ## Subscriptions
 
 Prints out the current subscriptions tied to the Vestaboard to the command-line.
