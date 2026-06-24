@@ -58,6 +58,14 @@ cell if it's off, turn left and clear it if it's on, then step forward
 (wrapping at the board's edges). A classic example of complex behavior
 emerging from a very simple rule.
 
+## Sierpinski
+
+Draws a Sierpinski triangle via the "chaos game": each tick jumps halfway
+from the current point toward a randomly chosen triangle corner and lights
+that cell. No recursion needed - the fractal emerges from pure randomness,
+one tile at a time. Note the board's 6x22 resolution is coarse, so the
+triangle reads more as a sparse, blinking pattern than a crisp fractal.
+
 ## Subscriptions
 
 Prints out the current subscriptions tied to the Vestaboard to the command-line.
